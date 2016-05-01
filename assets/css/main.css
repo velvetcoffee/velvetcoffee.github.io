@@ -1,49 +1,6 @@
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
-
-/**
- * Remove default margin.
- */
-body {
-  margin: 0; }
-
-*, *:after, *:before {
-  box-sizing: border-box; }
-
-p {
-  margin: 0 0 20px 0; }
-
-em {
-  font-style: italic; }
-
-strong {
-  font-weight: bold; }
-
-hr {
-  border: solid #ddd;
-  border-width: 1px 0 0;
-  clear: both;
-  margin: 10px 0 30px;
-  height: 0; }
-
-a {
-  color: #303e49;
-  text-decoration: none;
-  outline: 0; }
-
-a:hover, a:focus {
-  color: #587287; }
-
-body {
-  -webkit-tap-highlight-color: #FFF498; }
-
 body {
   background: white;
+  margin:0;
   font-size: 14px;
   line-height: 1.6;
   font-family: 'Open Sans' sans-serif;
@@ -51,22 +8,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
-h2 {
-  color: #303e49;
-  text-align: center;
-  padding: 50px 0 30px; }
-
-@media sceen and (max-width: 480px) {
-  h2 {
-    padding: 50px 0 50px; } }
-
-h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase; }
+*, *:after, *:before {
+  box-sizing: border-box; }
 
 header {
-  background: url(../img/galway2.jpg) center center;
+  background: url(../img/header.jpg) center center;
   background-size: cover; }
   @media only screen and (min-width: 220px) {
     header {
@@ -82,7 +28,9 @@ header {
     margin: 30px 30px 30px; }
     header nav a {
       margin-left: 20px;
-      color: rgba(0, 0, 0, 0.5); }
+      color: white;
+      text-decoration: none;
+      font-size: 22px; }
       @media only screen and (min-width: 220px) {
         header nav a {
           display: none; } }
@@ -126,10 +74,6 @@ header {
       @media only screen and (min-width: 1070px) {
         header h1 span {
           padding: 0.2em 0.5em; } }
-  header .kicker {
-    text-align: center;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5); }
 
 footer {
   background: url(../img/galway3.jpg) center center;
@@ -416,3 +360,8 @@ footer {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0); } }
+
+.kicker {
+  color: white;
+  font-size: 30px;
+}
