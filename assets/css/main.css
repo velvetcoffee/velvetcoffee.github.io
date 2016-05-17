@@ -1,367 +1,154 @@
 body {
-  background: white;
-  margin:0;
-  font-size: 14px;
-  line-height: 1.6;
-  font-family: 'Open Sans' sans-serif;
-  color: #666;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; }
-
-*, *:after, *:before {
-  box-sizing: border-box; }
-
+    background: url("/assets/img/wall.png");
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: 'Open Sans' sans-serif;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
 header {
-  background: url(../img/header.jpg) center center;
-  background-size: cover; }
-  @media only screen and (min-width: 220px) {
+    background: url(../img/header.jpg) center center;
+    background-size: cover;
+}
+@media only screen and (min-width: 220px) {
     header {
-      height: 300px; } }
-  @media only screen and (min-width: 650px) {
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 650px) {
     header {
-      height: 390px; } }
-  @media only screen and (min-width: 1070px) {
+        height: 390px;
+    }
+}
+@media only screen and (min-width: 1070px) {
     header {
-      height: 450px; } }
-  header nav {
+        height: 450px;
+    }
+}
+header nav {
     float: right;
-    margin: 30px 30px 30px; }
+    margin: 30px 30px 30px;
+}
+header nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+@media only screen and (min-width: 220px) {
     header nav a {
-      margin-left: 20px;
-      color: white;
-      text-decoration: none;
-      font-size: 22px; }
-      @media only screen and (min-width: 220px) {
-        header nav a {
-          display: none; } }
-      @media only screen and (min-width: 650px) {
-        header nav a {
-          display: inline-block; } }
-      header nav a:hover {
-        color: black; }
-  header h1 {
+        display: none;
+    }
+}
+@media only screen and (min-width: 650px) {
+    header nav a {
+        display: inline-block;
+    }
+}
+header nav a:hover {
+    color: black;
+}
+header h1 {
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     letter-spacing: 0.05cm;
     margin-bottom: 20px;
-    clear: both; }
-    @media only screen and (min-width: 220px) {
-      header h1 {
+    clear: both;
+}
+@media only screen and (min-width: 220px) {
+    header h1 {
         padding-top: 20px;
         font-size: 32px;
-        font-weight: 350; } }
-    @media only screen and (min-width: 650px) {
-      header h1 {
+        font-weight: 350;
+    }
+}
+@media only screen and (min-width: 650px) {
+    header h1 {
         padding-top: 10px;
         font-size: 30px;
-        font-weight: 350; } }
-    @media only screen and (min-width: 1070px) {
-      header h1 {
+        font-weight: 350;
+    }
+}
+@media only screen and (min-width: 1070px) {
+    header h1 {
         padding-top: 50px;
         font-size: 72px;
-        font-weight: 700; } }
+        font-weight: 700;
+    }
+}
+header h1 span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: rgba(0, 0, 0, 0.5) solid 10px;
+}
+@media only screen and (min-width: 220px) {
     header h1 span {
-      display: inline-block;
-      padding: 0.2em 0.5em;
-      border: rgba(0, 0, 0, 0.5) solid 10px; }
-      @media only screen and (min-width: 220px) {
-        header h1 span {
-          padding: 0.2em 0.5em; } }
-      @media only screen and (min-width: 650px) {
-        header h1 span {
-          padding: 0.1em 0.2em; } }
-      @media only screen and (min-width: 1070px) {
-        header h1 span {
-          padding: 0.2em 0.5em; } }
+        padding: 0.2em 0.5em;
+    }
+}
+@media only screen and (min-width: 650px) {
+    header h1 span {
+        padding: 0.1em 0.2em;
+    }
+}
+@media only screen and (min-width: 1070px) {
+    header h1 span {
+        padding: 0.2em 0.5em;
+    }
+}
 
 footer {
-  background: url(../img/galway3.jpg) center center;
-  background-size: cover; }
-  footer .lockup {
-    padding: 50px 30px; }
-    footer .lockup::after {
-      clear: both;
-      content: "";
-      display: table; }
-    footer .lockup .content-wrap {
-      float: left; }
-      footer .lockup .content-wrap .copyright {
-        margin: 0;
-        text-transform: uppercase;
-        font-size: 12px;
-        color: rgba(0, 0, 0, 0.4); }
-    footer .lockup a {
-      color: rgba(0, 0, 0, 0.6);
-      display: inline-block;
-      margin-right: 30px; }
-      footer .lockup a:hover {
-        color: black; }
-
-
-.history {
-  background: #e5eaee; }
-
-.cd-container {
-  background: #e5eaee;
-  width: 90%;
-  max-width: 1070px;
-  margin: 0 auto; }
-  .cd-container::after {
-    content: '';
+    background: url(../img/galway3.jpg) center center;
+    background-size: cover;
+}
+footer .lockup {
+    padding: 50px 30px;
+}
+footer .lockup::after {
+    clear: both;
+    content: "";
     display: table;
-    clear: both; }
-
-#cd-timeline {
-  position: relative;
-  padding: 2em 0; }
-  #cd-timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 18px;
-    height: 100%;
-    width: 4px;
-    background: rgba(0, 0, 0, 0.3); }
-  @media only screen and (min-width: 1070px) {
-      #cd-timeline::before {
-        left: 50%;
-        margin-left: -2px; } }
-
-.cd-timeline-block {
-  position: relative;
-  margin: 2em 0; }
-  .cd-timeline-block::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .cd-timeline-block:first-child {
-    margin-top: 0; }
-  .cd-timeline-block:last-child {
-    margin-bottom: 0; }
-  @media only screen and (min-width: 1070px) {
-    .cd-timeline-block {
-      margin: 4em 0; }
-      .cd-timeline-block:first-child {
-        margin-top: 0; }
-      .cd-timeline-block:last-child {
-        margin-bottom: 0; } }
-
-.cd-timeline-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); }
-  .cd-timeline-img img {
-    display: block;
-    width: 24px;
-    height: 24px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    margin-left: -12px;
-    margin-top: -12px; }
-  .cd-timeline-img.cd-picture {
-    background: #303e49; }
-  .cd-timeline-img.cd-movie {
-    background: #303e49; }
-  .cd-timeline-img.cd-location {
-    background: #303e49; }
-  @media only screen and (min-width: 1070px) {
-    .cd-timeline-img {
-      width: 60px;
-      height: 60px;
-      left: 50%;
-      margin-left: -30px;
-      -webkit-transform: translateZ(0);
-      -webkit-backface-visibility: hidden; }
-      .cssanimations .cd-timeline-img.is-hidden {
-        visibility: hidden; }
-      .cssanimations .cd-timeline-img.bounce-in {
-        visibility: visible;
-        -webkit-animation: cd-bounce-1 0.6s;
-        animation: cd-bounce-1 0.6s; } }
-
-@-webkit-keyframes cd-bounce-1 {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0.5); }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale(1.2); }
-  100% {
-    -webkit-transform: scale(1); } }
-
-@keyframes cd-bounce-1 {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5); }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2); }
-  100% {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1); } }
-
-.cd-timeline-content {
-  position: relative;
-  margin-left: 60px;
-  background: #ffffff;
-  border-radius: 0.25em;
-  padding: 1em;
-  box-shadow: 0 3px 0 #d6dee4; }
-  .cd-timeline-content::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .cd-timeline-content h2 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    color: #303e49; }
-  .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 13px;
-    font-size: 0.8125rem; }
-  .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    display: inline-block; }
-  .cd-timeline-content p {
-    line-height: 1.6; }
-  .cd-timeline-content .cd-read-more {
-    float: right;
-    padding: 0.8em 1em;
-    background: #acb7c0;
-    color: #ffffff;
-    border-radius: 0.25em; }
-    .no-touch .cd-timeline-content .cd-read-more:hover {
-      background-color: #bac4cb; }
-  .cd-timeline-content .cd-date {
+}
+footer .lockup .content-wrap {
     float: left;
-    padding: .8em 0;
-    opacity: .7; }
-  .cd-timeline-content::before {
-    content: '';
-    position: absolute;
-    top: 16px;
-    right: 100%;
-    height: 0;
-    width: 0;
-    border: 10px solid transparent;
-    border-right: 7px solid #ffffff; }
-  @media only screen and (min-width: 650px) {
-    .cd-timeline-content h2 {
-      font-size: 20px;
-      font-size: 1.25rem; }
-    .cd-timeline-content p {
-      font-size: 16px;
-      font-size: 1rem; }
-    .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-      font-size: 14px;
-      font-size: 0.875rem; } }
-  @media only screen and (min-width: 1070px) {
-    .cd-timeline-content {
-      margin-left: 0;
-      padding: 1.6em;
-      width: 45%; }
-      .cd-timeline-content::before {
-        top: 24px;
-        left: 100%;
-        border-color: transparent;
-        border-left-color: #ffffff; }
-      .cd-timeline-content .cd-read-more {
-        float: left; }
-      .cd-timeline-content .cd-date {
-        position: absolute;
-        width: 100%;
-        left: 122%;
-        top: 6px;
-        font-size: 16px;
-        font-size: 1rem; }
-      .cd-timeline-block:nth-child(even) .cd-timeline-content {
-        float: right; }
-        .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
-          top: 24px;
-          left: auto;
-          right: 100%;
-          border-color: transparent;
-          border-right-color: #ffffff; }
-        .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
-          float: right; }
-        .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
-          left: auto;
-          right: 122%;
-          text-align: right; }
-      .cssanimations .cd-timeline-content.is-hidden {
-        visibility: hidden; }
-      .cssanimations .cd-timeline-content.bounce-in {
-        visibility: visible;
-        -webkit-animation: cd-bounce-2 0.6s;
-        animation: cd-bounce-2 0.6s; } }
-
-@media only screen and (min-width: 1070px) {
-  .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
-    -webkit-animation: cd-bounce-2-inverse 0.6s;
-    animation: cd-bounce-2-inverse 0.6s; } }
-
-@-webkit-keyframes cd-bounce-2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-100px); }
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(20px); }
-  100% {
-    -webkit-transform: translateX(0); } }
-
-@keyframes cd-bounce-2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-100px);
-    -ms-transform: translateX(-100px);
-    transform: translateX(-100px); }
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(20px);
-    -ms-transform: translateX(20px);
-    transform: translateX(20px); }
-  100% {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0); } }
-
-@-webkit-keyframes cd-bounce-2-inverse {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(100px); }
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(-20px); }
-  100% {
-    -webkit-transform: translateX(0); } }
-
-@keyframes cd-bounce-2-inverse {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-    -ms-transform: translateX(100px);
-    transform: translateX(100px); }
-  60% {
-    opacity: 1;
-    -webkit-transform: translateX(-20px);
-    -ms-transform: translateX(-20px);
-    transform: translateX(-20px); }
-  100% {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0); } }
-
+}
+footer .lockup .content-wrap .copyright {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+}
+footer .lockup a {
+    color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    margin-right: 30px;
+}
+footer .lockup a:hover {
+    color: black;
+}
 .kicker {
-  color: white;
-  font-size: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.media {
+    width: 350px;
+    height: 420px;
+    border: 3px solid #f0f0f0;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
 }
