@@ -41,4 +41,5 @@ function showPlayer(options) {
 
 function closePlayer() {
 	$('.player').removeClass('open');
+	$('.player .media').empty();
 }
