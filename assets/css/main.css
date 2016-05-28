@@ -1,154 +1,184 @@
 body {
-    background: url("/assets/img/wall.png");
-    margin: 0;
-    font-size: 14px;
-    line-height: 1.6;
-    font-family: 'Open Sans' sans-serif;
-    color: #666;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-}
-*,
-*:after,
-*:before {
-    box-sizing: border-box;
-}
-header {
-    background: url(../img/header.jpg) center center;
-    background-size: cover;
-}
-@media only screen and (min-width: 220px) {
-    header {
-        height: 300px;
-    }
-}
-@media only screen and (min-width: 650px) {
-    header {
-        height: 390px;
-    }
-}
-@media only screen and (min-width: 1070px) {
-    header {
-        height: 450px;
-    }
-}
-header nav {
-    float: right;
-    margin: 30px 30px 30px;
-}
-header nav a {
-    margin-left: 20px;
-    color: white;
-    text-decoration: none;
-    font-size: 22px;
-}
-@media only screen and (min-width: 220px) {
-    header nav a {
-        display: none;
-    }
-}
-@media only screen and (min-width: 650px) {
-    header nav a {
-        display: inline-block;
-    }
-}
-header nav a:hover {
-    color: black;
-}
-header h1 {
+    background: #000;
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 100%;
+    line-height: 1.3em;
+    width: 100%;
     text-align: center;
-    color: rgba(0, 0, 0, 0.5);
-    text-transform: uppercase;
-    letter-spacing: 0.05cm;
-    margin-bottom: 20px;
-    clear: both;
-}
-@media only screen and (min-width: 220px) {
-    header h1 {
-        padding-top: 20px;
-        font-size: 32px;
-        font-weight: 350;
-    }
-}
-@media only screen and (min-width: 650px) {
-    header h1 {
-        padding-top: 10px;
-        font-size: 30px;
-        font-weight: 350;
-    }
-}
-@media only screen and (min-width: 1070px) {
-    header h1 {
-        padding-top: 50px;
-        font-size: 72px;
-        font-weight: 700;
-    }
-}
-header h1 span {
-    display: inline-block;
-    padding: 0.2em 0.5em;
-    border: rgba(0, 0, 0, 0.5) solid 10px;
-}
-@media only screen and (min-width: 220px) {
-    header h1 span {
-        padding: 0.2em 0.5em;
-    }
-}
-@media only screen and (min-width: 650px) {
-    header h1 span {
-        padding: 0.1em 0.2em;
-    }
-}
-@media only screen and (min-width: 1070px) {
-    header h1 span {
-        padding: 0.2em 0.5em;
-    }
-}
-
-footer {
-    background: url(../img/galway3.jpg) center center;
-    background-size: cover;
-}
-footer .lockup {
-    padding: 50px 30px;
-}
-footer .lockup::after {
-    clear: both;
-    content: "";
-    display: table;
-}
-footer .lockup .content-wrap {
-    float: left;
-}
-footer .lockup .content-wrap .copyright {
     margin: 0;
-    text-transform: uppercase;
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.4);
-}
-footer .lockup a {
-    color: rgba(255, 255, 255, 0.6);
-    display: inline-block;
-    margin-right: 30px;
-}
-footer .lockup a:hover {
-    color: black;
-}
-.kicker {
-    color: white;
-    font-size: 30px;
 }
 
-.gallery {
+#header {
+    font-size: 13px;
+    margin: 0 auto 0 auto;
+    min-height: 2em;
+    padding: 20px 0px 0px 0px;
+    position: relative;
+    width: 940px;
+}
+
+.header_img {
+    float: left;
+    margin: 0 0 0px 0;
+}
+
+.nav_container.horizontal {
+    float: right;
+    margin: 0 0 40px 0;
+    position: absolute;
+    right: 0px;
+    text-transform: uppercase;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.nav_container.horizontal div {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+.nav_container a {
+    padding: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: #aaa;
+}
+
+.project {
+    float: left;
+    margin: 5px 0px;
+    position: relative;
+    text-align: left;
+    color: #aaa;
+}
+
+.project img {
+    border: 0px;
+    background: transparent;
+    padding: 0px;
+    width:215px;
+    height:100px;
+}
+
+.project img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.thumbnail {
+    background: #111111;
+    border: 2px solid #0f0f0f;
+    margin: -2px -2px 5px -2px;
+    position: relative;
+    min-width: 215px;
+    min-height: 100px;
+}
+
+.title {
+    margin: 0;
+    color: #888888;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.context {
+    margin: 2px 0;
+    color: #555555;
+    font-size: 11px;
+    line-height: 1.1em;
+    text-align: left;
+}
+
+.player {
+    animation-name: fadeOut;
+    animation-duration: 0.7s;
+    opacity: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.player.open {
+    animation-name: fadeIn;
+    animation-duration: 0.7s;
+    opacity: 1;
+    z-index: 111;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.content {
+    display: inline-block;
+    background: #0f0f0f;
+    clear: both;
+    margin: 0px auto 0 auto;
+    padding: 30px 40px 2px 40px;
+    position: relative;
+    width: 860px;
+    z-index: 10;
     text-align: center;
 }
 
 .media {
-    width: 350px;
-    height: 420px;
-    border: 3px solid #f0f0f0;
-    border-radius: 8px;
+    width: 80%;
     display: inline-block;
-    margin: 10px;
     vertical-align: top;
+}
+
+.mediaTitle {
+    margin: 0;
+    color: #d0d0d0;
+    font-size: 31px;
+    font-weight: bold;
+    line-height: 61px;
+    overflow: hidden;
+}
+
+.close {
+    background: url('/assets/img/close.png');
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    top: 50px;
+    right: 50px;
+    position: fixed;
+}
+
+.kicker {
+    color: white;
+    font-size: 30px;
 }

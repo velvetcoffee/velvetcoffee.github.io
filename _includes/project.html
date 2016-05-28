@@ -1,0 +1,14 @@
+<div class="project"
+     onclick="showPlayer({
+       type: '{{ include.type }}',
+       title: '{{ include.title }}',
+       url: '{{ include.url }}',
+       id: '{{ include.id }}'
+     })"
+>
+  <div class="thumbnail">
+    <img src="{{ include.thumbnail }}"/>
+  </div>
+  <p class="title">{{ include.title }}</p>
+  <p class="context">{{ include.context }}</p>
+</div>
