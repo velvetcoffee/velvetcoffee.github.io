@@ -1,5 +1,5 @@
-function videoTemplate(options){
-	return `
+function videoTemplate(options) {
+    return `
 		<p class="mediaTitle">${options.title}</p>
 		<iframe src="${options.url}"
 		      width="100%"
@@ -11,8 +11,8 @@ function videoTemplate(options){
 		</iframe>`;
 }
 
-function soundcloudTemplate(options){
-	return `
+function soundcloudTemplate(options) {
+    return `
 		<p class="mediaTitle">${options.title}</p>
 		<iframe width="100%"
 		      height="300"
@@ -22,35 +22,43 @@ function soundcloudTemplate(options){
 		</iframe>`;
 }
 
-function createDetails(options){
-	return `
+function createDetails(options) {
+    return `
 		<p class="text">${options.details}</p>
-		<p class="who">${options.who}</p>
-		<p class="backlink">${options.backlink}</p>`;
+		<span class="context">${options.context}</span>
+		<span class="date">${options.date}</span>
+		<p class="who">
+			<span class>${options.who}</span>
+			<span>
+				<a class="link" href="${options.backlink}">
+					${options.wholink}
+				</a>
+			</span>
+		</p>`;
 }
 
 function showPlayer(options) {
-	var content = {
-		video: videoTemplate,
-		soundcloud: soundcloudTemplate
-	}
+    var content = {
+        video: videoTemplate,
+        soundcloud: soundcloudTemplate
+    }
 
-	var media = content[options.type](options);
-	var details = createDetails(options);
+    var media = content[options.type](options);
+    var details = createDetails(options);
 
-	$('.player').addClass('open');
-	$('.player').addClass('loading');
-	$('.player .media').html(media);
+    $('.player').addClass('open');
+    $('.player').addClass('loading');
+    $('.player .media').html(media);
 
-	$('.player .media iframe').load(function () {
-		$('.player').removeClass('loading');
-	});
+    $('.player .media iframe').load(function() {
+        $('.player').removeClass('loading');
+    });
 
-	$('.player .details').html(details);
+    $('.player .details').html(details);
 }
 
 function closePlayer() {
-	$('.player').removeClass('open');
-	$('.player .media').empty();
-	$('.player .details').empty();
+    $('.player').removeClass('open');
+    $('.player .media').empty();
+    $('.player .details').empty();
 }
