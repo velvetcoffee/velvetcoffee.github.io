@@ -52,6 +52,11 @@ body {
     color: #aaa;
 }
 
+.link {
+    font-size: 20px;
+    color: #aaa;
+}
+
 .project {
     float: left;
     margin: 5px 0px;
@@ -100,6 +105,27 @@ body {
     text-align: left;
 }
 
+.content {
+    display: inline-block;
+    background: #0f0f0f;
+    clear: both;
+    margin: 0px auto 0 auto;
+    padding: 30px 40px 2px 40px;
+    position: relative;
+    width: 860px;
+    z-index: 10;
+    text-align: center;
+}
+
+.contact {
+    float: left;
+    text-align: left;
+    line-height: 128px;
+    font-size: 16px;
+}
+
+/* --------------------------    PLAYER POPIN  ---------------------------- */
+
 .player {
     animation-name: fadeOut;
     animation-duration: 0.7s;
@@ -140,23 +166,13 @@ body {
   }
 }
 
-
-.content {
-    display: inline-block;
-    background: #0f0f0f;
-    clear: both;
-    margin: 0px auto 0 auto;
-    padding: 30px 40px 2px 40px;
-    position: relative;
-    width: 860px;
-    z-index: 10;
-    text-align: center;
-}
-
 .media {
     width: 80%;
     display: inline-block;
     vertical-align: top;
+    background: #0f0f0f none repeat scroll 0% 0%;
+    border: solid 3px #0f0f0f;
+    box-sizing: border-box;
 }
 
 .mediaTitle {
@@ -168,17 +184,27 @@ body {
     overflow: hidden;
 }
 
+.details {
+    background: #0f0f0f none repeat scroll 0% 0%;
+    width: 80%;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 39px;
+    box-sizing: border-box;
+}
+
 .close {
     background: url('/assets/img/close.png');
     width: 32px;
     height: 32px;
     background-size: 100%;
-    top: 50px;
-    right: 50px;
+    top: 214px;
+    right: 12%;
     position: fixed;
 }
 
-.kicker {
-    color: white;
-    font-size: 30px;
+.close:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }

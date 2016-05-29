@@ -8,6 +8,10 @@
   z-index: -1;
 }
 
+.loading .loaderContainer {
+  z-index: 100;
+}
+
 .loading-anim {
   position: relative;
   width: 200px;

@@ -22,6 +22,13 @@ function soundcloudTemplate(options){
 		</iframe>`;
 }
 
+function createDetails(options){
+	return `
+		<p class="text">${options.details}</p>
+		<p class="who">${options.who}</p>
+		<p class="backlink">${options.backlink}</p>`;
+}
+
 function showPlayer(options) {
 	var content = {
 		video: videoTemplate,
@@ -29,6 +36,7 @@ function showPlayer(options) {
 	}
 
 	var media = content[options.type](options);
+	var details = createDetails(options);
 
 	$('.player').addClass('open');
 	$('.player').addClass('loading');
@@ -37,9 +45,12 @@ function showPlayer(options) {
 	$('.player .media iframe').load(function () {
 		$('.player').removeClass('loading');
 	});
+
+	$('.player .details').html(details);
 }
 
 function closePlayer() {
 	$('.player').removeClass('open');
 	$('.player .media').empty();
+	$('.player .details').empty();
 }
