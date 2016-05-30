@@ -33,7 +33,7 @@
 
 - type:      soundcloud
   title:     City of Lights
-  thumbnail: http://i2.sndcdn.com/artworks-000136370758-i0eakk-t500x500.jpg
+  thumbnail: /assets/img/thumbnails/city-of-light.jpg
   id:        233368016
   date:      November 2015
   context:   Soundtrack, Piano
@@ -52,7 +52,7 @@
 
 - type:      soundcloud
   title:     Nocturne Waltz
-  thumbnail: /assets/img/header.jpg
+  thumbnail: /assets/img/thumbnails/nocturne.jpg
   id:        88288126
   date:      2013
   context:   Soundtrack
