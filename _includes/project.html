@@ -13,7 +13,13 @@
      })"
 >
   <div class="thumbnail">
-    <img src="{{ project.thumbnail }}"/>
+    <img class="thumbImg" src="{{ project.thumbnail }}"/>
+    {% if project.type == 'soundcloud' %}
+      <img class="logoSoundcloud" src="/assets/img/logo.soundcloud.png"/>
+    {% endif %}
+    {% if project.type == 'video' %}
+      <img class="logoMovie" src="/assets/img/movie.png"/>
+    {% endif %}
   </div>
   <p class="title">{{ project.title }}</p>
   <p class="context">{{ project.context }}</p>
