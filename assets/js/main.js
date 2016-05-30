@@ -30,7 +30,9 @@ function createDetails(options) {
 		<p class="who">
 			<span class>${options.who}</span>
 			<span>
-				<a class="link" href="${options.backlink}">
+				<a class="link"
+				   href="${options.backlink}"
+				   target="_new">
 					${options.wholink}
 				</a>
 			</span>

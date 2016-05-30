@@ -1,0 +1,59 @@
+- type:      video
+  title:     Black Magic
+  thumbnail: /assets/img/thumbnails/blackmagic.jpg
+  url:       https://player.vimeo.com/video/154069606?color=dedede&title=0&portrait=0
+  date:      February 2016
+  context:   Short film, Web
+  details:   Shooting for Empara.
+  who:       Directed by
+  wholink:   Pascal Délé
+  backlink:  http://www.facebook.com/pascaldelefilmaker
+
+- type:      video
+  title:     Withings
+  thumbnail: /assets/img/thumbnails/withings-video.jpg
+  url:       https://www.youtube.com/embed/n44NQLqPLgA
+  date:      January 2016
+  context:   Commercial, TV
+  details:   Tv advertisement for Withings.
+  who:       Directed by
+  wholink:   Günther Gheeraert (Mister Gü)
+  backlink:  http://www.facebook.com/MisterGu.inc
+
+- type:      soundcloud
+  title:     Withings - music only
+  thumbnail: /assets/img/thumbnails/withings.jpg
+  id:        262617371
+  date:      January 2016
+  context:   Soundtrack, Piano
+  details:   Tv advertisement for Withings.
+  who:       Directed by
+  wholink:   Günther Gheeraert (Mister Gü)
+  backlink:  http://www.facebook.com/MisterGu.inc
+
+- type:      soundcloud
+  title:     City of Lights
+  thumbnail: http://i2.sndcdn.com/artworks-000136370758-i0eakk-t500x500.jpg
+  id:        233368016
+  date:      November 2015
+  context:   Soundtrack, Piano
+  details:   A simple musical tribute to remember.
+
+- type:      video
+  title:     Light
+  thumbnail: /assets/img/thumbnails/light.jpg
+  url:       https://player.vimeo.com/video/136911537?color=dedede&title=0&portrait=0
+  date:      June 2015
+  context:   Short film, Web
+  details:   Greg Finck Workshops.
+  who:       Directed by
+  wholink:   Pascal Délé
+  backlink:  http://www.facebook.com/pascaldelefilmaker
+
+- type:      soundcloud
+  title:     Nocturne Waltz
+  thumbnail: /assets/img/header.jpg
+  id:        88288126
+  date:      2013
+  context:   Soundtrack
+  details:   Velvet's birth <3

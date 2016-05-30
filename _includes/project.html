@@ -1,20 +1,20 @@
 <div class="project"
      onclick="showPlayer({
-       type: '{{ include.type }}',
-       title: '{{ include.title }}',
-       url: '{{ include.url }}',
-       id: '{{ include.id }}',
-       details: '{{ include.details }}',
-       context: '{{ include.context }}',
-       date: '{{ include.date }}',
-       who: '{{ include.who }}',
-       wholink: '{{ include.wholink }}',
-       backlink: '{{ include.backlink }}'
+       type: '{{ project.type }}',
+       title: '{{ project.title }}',
+       url: '{{ project.url }}',
+       id: '{{ project.id }}',
+       details: '{{ project.details }}',
+       context: '{{ project.context }}',
+       date: '{{ project.date }}',
+       who: '{{ project.who }}',
+       wholink: '{{ project.wholink }}',
+       backlink: '{{ project.backlink }}'
      })"
 >
   <div class="thumbnail">
-    <img src="{{ include.thumbnail }}"/>
+    <img src="{{ project.thumbnail }}"/>
   </div>
-  <p class="title">{{ include.title }}</p>
-  <p class="context">{{ include.context }}</p>
+  <p class="title">{{ project.title }}</p>
+  <p class="context">{{ project.context }}</p>
 </div>
