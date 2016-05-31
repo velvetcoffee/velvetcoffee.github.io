@@ -1,3 +1,11 @@
+function showContact() {
+    $('.contact').addClass('open');
+}
+
+function closeContact() {
+    $('.contact').removeClass('open');
+}
+
 function videoTemplate(options) {
     return `
 		<p class="mediaTitle">${options.title}</p>

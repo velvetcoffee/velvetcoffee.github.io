@@ -26,7 +26,7 @@ body {
 
 .nav_container.horizontal {
     float: right;
-    margin: 0 0 40px 0;
+    margin: 4px 10px;
     position: absolute;
     right: 0px;
     text-transform: uppercase;
@@ -50,11 +50,17 @@ body {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     color: #aaa;
+    cursor: pointer;
 }
 
 .link {
     font-size: 14px;
     color: #aaa;
+    opacity: 0.8;
+}
+
+.link:hover {
+    opacity: 1;
 }
 
 .project {
@@ -134,9 +140,28 @@ body {
 }
 
 .contact {
-    float: left;
+    opacity: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.contact.open {
+    animation-name: fadeIn;
+    animation-duration: 0.7s;
+    opacity: 1;
+    z-index: 111;
+}
+
+.contact .text{
+    padding: 50px 20%;
     text-align: left;
-    margin: 100px 0;
     font-size: 14px;
 }
 
@@ -150,8 +175,6 @@ body {
 /* --------------------------    PLAYER POPIN  ---------------------------- */
 
 .player {
-    animation-name: fadeOut;
-    animation-duration: 0.7s;
     opacity: 0;
     position: fixed;
     background: rgba(0, 0, 0, 0.9);
@@ -177,15 +200,6 @@ body {
   }
   100% {
     opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
   }
 }
 

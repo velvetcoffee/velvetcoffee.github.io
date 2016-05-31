@@ -1,22 +1,9 @@
+{% include player.html %}
+{% include contact.html %}
 <div class="content">
-  {% include player.html %}
-
   <div class="gallery">
     {% for project in site.data.projects %}
       {% include project.html %}
     {% endfor %}
-  </div>
-
-  <div class="contact">
-    <h5>We are 2 soundtrack makers thriving to create music for your creations.</h5>
-    <h5>From simple piano keys to an electric symphony, we try to understand your visual universe and find your sound.</h5>
-    <h5>A good soundtrack will add shivers to your pictures.</h5>
-    <p>
-      <a href="mailto:velvetcoffeemusic@gmail.com"
-         class="link">
-        Contact us
-      </a>
-      to get an estimate.
-    </p>
   </div>
 </div>
