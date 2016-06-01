@@ -1,8 +1,10 @@
 function showContact() {
     $('.contact').addClass('open');
+    $('.contact').removeClass('closed');
 }
 
 function closeContact() {
+    $('.contact').addClass('closed');
     $('.contact').removeClass('open');
 }
 

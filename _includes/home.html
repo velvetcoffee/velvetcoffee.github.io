@@ -1,6 +1,7 @@
 {% include player.html %}
-{% include contact.html %}
+
 <div class="content">
+  {% include contact.html %}
   <div class="gallery">
     {% for project in site.data.projects %}
       {% include project.html %}
