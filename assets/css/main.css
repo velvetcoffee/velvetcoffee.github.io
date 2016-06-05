@@ -139,6 +139,8 @@ body {
     text-align: center;
 }
 
+/* --------------------------    CONTACT    ---------------------------- */
+
 .contact {
     margin-top: 30px;
     height: 30px;
@@ -206,6 +208,16 @@ body {
     opacity: 0;
     height: 30px;
   }
+}
+
+/* --------------------------    Disqus ---------------------------- */
+
+.forum {
+    margin-top: 380px;
+}
+
+.active .publisher-nav-color::after {
+    background: #123 !important;
 }
 
 /* --------------------------    PLAYER POPIN  ---------------------------- */
