@@ -1,4 +1,15 @@
 - type:      video
+  title:     Colors
+  thumbnail: /assets/img/thumbnails/colors.jpg
+  url:       https://player.vimeo.com/video/178430038?color=dedede&title=0&portrait=0
+  date:      August 2016
+  context:   Experimental, Short film, Web
+  details:   Experimental video.
+  who:       Directed by
+  wholink:   Thomas Blanchard
+  backlink:  https://www.facebook.com/thomasblanchardgraphiste
+
+- type:      video
   title:     Ballerina
   thumbnail: /assets/img/thumbnails/ballerina.jpg
   url:       https://player.vimeo.com/video/168687096?color=dedede&title=0&portrait=0
