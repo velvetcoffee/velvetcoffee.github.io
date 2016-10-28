@@ -1,4 +1,15 @@
 - type:      video
+  title:     L\'Ôtrement
+  thumbnail: /assets/img/thumbnails/otrement.jpg
+  url:       https://www.youtube.com/embed/GGaUdgAp7LQ
+  date:      October 2016
+  context:   Commercial, Short film
+  details:   Advertisement.
+  who:       Directed by
+  wholink:   White Prod
+  backlink:  https://www.facebook.com/WhiteProd/
+
+- type:      video
   title:     Colors
   thumbnail: /assets/img/thumbnails/colors.jpg
   url:       https://player.vimeo.com/video/178430038?color=dedede&title=0&portrait=0
