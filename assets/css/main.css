@@ -10,6 +10,18 @@ body {
     margin: 0;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.widgets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #header {
     font-size: 13px;
     margin: 0 auto 0 auto;

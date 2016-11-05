@@ -3,11 +3,17 @@
 <div class="content">
   {% include contact.html %}
   <div class="gallery">
+
     {% for project in site.data.projects %}
       {% include project.html %}
     {% endfor %}
   </div>
 
+  <div class="widgets">
+    <iframe src="https://embed.spotify.com/?uri=spotify:album:1dm8RTraWB5Br1M6tQ3ilP" width="250" height="330" frameborder="0" allowtransparency="true"></iframe>
+
+    <iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:1vzWvRatFS1riGD75SFVNX&size=detail&theme=dark" width="300" height="56" scrolling="no" style="border:none; overflow:hidden;" frameborder="0" allowtransparency="true"></iframe>
+  </div>
   <!-- <div class="forum">
     {% include disqus.html %}
   </div> -->
