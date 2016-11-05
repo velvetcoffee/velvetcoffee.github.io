@@ -1,7 +1,18 @@
 - type:      video
+  title:     Kingdom of Colors
+  thumbnail: /assets/img/thumbnails/kingdom-colors.jpg
+  url:       https://player.vimeo.com/video/190226045?color=dedede&title=0&portrait=0
+  date:      November 2016
+  context:   Experimental, Short film, Web
+  details:   Experimental video by Thomas Blanchard and Oilhack.
+  who:       Directed by
+  wholink:   Thomas Blanchard
+  backlink:  https://www.facebook.com/thomasblanchardgraphiste
+
+- type:      video
   title:     L`Ôtrement
   thumbnail: /assets/img/thumbnails/otrement.jpg
-  url:       https://vimeo.com/189611073
+  url:       https://player.vimeo.com/video/189611073?color=dedede&title=0&portrait=0
   date:      October 2016
   context:   Commercial, Short film
   details:   Advertisement.
