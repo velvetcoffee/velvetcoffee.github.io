@@ -11,6 +11,25 @@
   backlink:  https://www.facebook.com/thomasblanchardgraphiste
 
 - type:      video
+  title:     Emerald
+  thumbnail: /assets/img/thumbnails/emerald.jpg
+  url:       https://player.vimeo.com/video/222126220?color=dedede&title=0&portrait=0
+  date:      June 2017
+  context:   Experimental, Short film, Web
+  details:   Experimental video by Thomas Blanchard and Oilhack.
+  who:       Directed by
+  wholink:   Thomas Blanchard
+  backlink:  https://www.facebook.com/thomasblanchardgraphiste
+
+- type:      video
+  title:     Hey Hey My My Cover
+  thumbnail: /assets/img/thumbnails/heyhey.jpg
+  url:       https://www.youtube.com/embed/GYPW5tJuhTQ
+  date:      February 2017
+  context:   Cover
+  details:   Hey Hey My My || Neil Young (Cover by Leo)
+
+- type:      video
   title:     Waterfall of inspiration
   thumbnail: /assets/img/thumbnails/waterfall.jpg
   url:       https://player.vimeo.com/video/194728445?color=dedede&title=0&portrait=0
