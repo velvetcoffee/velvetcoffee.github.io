@@ -1,5 +1,6 @@
 - type:      video
   title:     Galaxy Gates
+  special:   staff-pick
   thumbnail: /assets/img/thumbnails/galaxy-gates.jpg
   url:       https://player.vimeo.com/video/222125279?color=dedede&title=0&portrait=0
   date:      June 2017
@@ -22,6 +23,7 @@
 
 - type:      video
   title:     Kingdom of Colors
+  special:   staff-pick
   thumbnail: /assets/img/thumbnails/kingdom-colors.jpg
   url:       https://player.vimeo.com/video/190226045?color=dedede&title=0&portrait=0
   date:      November 2016

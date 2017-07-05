@@ -17,8 +17,12 @@
     {% if project.type == 'soundcloud' %}
       <img class="logoSoundcloud" src="/assets/img/logo.soundcloud.png"/>
     {% endif %}
-    {% if project.type == 'video' %}
-      <img class="logoMovie" src="/assets/img/movie.png"/>
+    {% if project.special == 'staff-pick' %}
+      <img
+        class="staffPick"
+        src="https://f.vimeocdn.com/p/images/badges/1.svg"
+        alt="Vimeo Staff Pick Badge"
+      />
     {% endif %}
   </div>
   <p class="title">{{ project.title }}</p>
