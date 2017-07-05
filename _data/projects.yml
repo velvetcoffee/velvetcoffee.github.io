@@ -1,4 +1,15 @@
 - type:      video
+  title:     Galaxy Gates
+  thumbnail: /assets/img/thumbnails/galaxy-gates.jpg
+  url:       https://player.vimeo.com/video/222125279?color=dedede&title=0&portrait=0
+  date:      June 2017
+  context:   Experimental, Short film, Web
+  details:   Experimental video by Thomas Blanchard and Oilhack.
+  who:       Directed by
+  wholink:   Thomas Blanchard
+  backlink:  https://www.facebook.com/thomasblanchardgraphiste
+
+- type:      video
   title:     Waterfall of inspiration
   thumbnail: /assets/img/thumbnails/waterfall.jpg
   url:       https://player.vimeo.com/video/194728445?color=dedede&title=0&portrait=0
@@ -8,7 +19,7 @@
   who:       Directed by
   wholink:   White Prod
   backlink:  https://www.facebook.com/WhiteProd/
-  
+
 - type:      video
   title:     Kingdom of Colors
   thumbnail: /assets/img/thumbnails/kingdom-colors.jpg
@@ -75,24 +86,24 @@
   wholink:   Günther Gheeraert (Mister Gü)
   backlink:  http://www.facebook.com/MisterGu.inc
 
-- type:      soundcloud
-  title:     Withings - music only
-  thumbnail: /assets/img/thumbnails/withings.jpg
-  id:        262617371
-  date:      January 2016
-  context:   Soundtrack, Piano
-  details:   Tv advertisement for Withings.
-  who:       Directed by
-  wholink:   Günther Gheeraert (Mister Gü)
-  backlink:  http://www.facebook.com/MisterGu.inc
+# - type:      soundcloud
+#   title:     Withings - music only
+#   thumbnail: /assets/img/thumbnails/withings.jpg
+#   id:        262617371
+#   date:      January 2016
+#   context:   Soundtrack, Piano
+#   details:   Tv advertisement for Withings.
+#   who:       Directed by
+#   wholink:   Günther Gheeraert (Mister Gü)
+#   backlink:  http://www.facebook.com/MisterGu.inc
 
-- type:      soundcloud
-  title:     City of Lights
-  thumbnail: /assets/img/thumbnails/city-of-light.jpg
-  id:        233368016
-  date:      November 2015
-  context:   Soundtrack, Piano
-  details:   A simple musical tribute to remember.
+# - type:      soundcloud
+#   title:     City of Lights
+#   thumbnail: /assets/img/thumbnails/city-of-light.jpg
+#   id:        233368016
+#   date:      November 2015
+#   context:   Soundtrack, Piano
+#   details:   A simple musical tribute to remember.
 
 - type:      video
   title:     Light
@@ -105,10 +116,10 @@
   wholink:   Pascal Délé
   backlink:  http://www.facebook.com/pascaldelefilmaker
 
-- type:      soundcloud
-  title:     Nocturne Waltz
-  thumbnail: /assets/img/thumbnails/nocturne.jpg
-  id:        88288126
-  date:      2013
-  context:   Soundtrack
-  details:   "Velvet\\'s birth <3"
+# - type:      soundcloud
+#   title:     Nocturne Waltz
+#   thumbnail: /assets/img/thumbnails/nocturne.jpg
+#   id:        88288126
+#   date:      2013
+#   context:   Soundtrack
+#   details:   "Velvet\\'s birth <3"
